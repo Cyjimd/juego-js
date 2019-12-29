@@ -127,7 +127,6 @@ class Juego {
     this.illuminateColor(nameColor)
     if (numberColor === this.sequence[this.subLevel]) {
       this.subLevel++
-      this.alertNextLevel()
       if (this.subLevel === this.level) {
         this.level++
         this.deleteClickEvents()
