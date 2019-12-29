@@ -142,10 +142,6 @@ class Juego {
     }
   }
 
-  alertNextLevel(){
-    swal(`Pasate al siguiente Nivel`)
-  }
-
   wonTheGame() {
     swal('Platzi','Felicitaciones, ganaste el juego!', 'success')
       .then(this.initialize)
