@@ -5,7 +5,7 @@ const green = document.getElementById('green')
 const blue = document.getElementById('blue')
 const yellow = document.getElementById('yellow')
 const buttonStart = document.getElementById('buttonStart')
-const LAST_LEVEL = 2
+const LAST_LEVEL = 10
 
 
 class Juego {
