@@ -224,12 +224,12 @@
         }
 
         ganoElJuego() {
-          swal('Platzi','Felicitaciones, ganaste el juego!', 'success')
+          swal('Simon Dice','Felicitaciones, ganaste el juego!', 'success')
             .then(this.inicializar)
         }
 
         perdioElJuego() {
-          swal('Platzi','Lo lamentamos, perdiste :(', 'error')
+          swal('Simon Dice','Lo lamentamos, perdiste :(', 'error')
             .then(() => {
               this.eliminarEventosClick()
               this.inicializar()
